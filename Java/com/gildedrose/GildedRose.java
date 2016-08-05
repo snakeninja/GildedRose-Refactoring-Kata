@@ -7,6 +7,15 @@ class GildedRose {
         this.items = items;
     }
 
+  public void updateQuality(){
+    for (Item item : items){
+      if(item.name.equals("")){
+
+      }
+    }
+  }
+
+    /*
     public void updateQuality() {
         for (int i = 0; i < items.length; i++) {
             if (!items[i].name.equals("Aged Brie")
@@ -59,4 +68,5 @@ class GildedRose {
             }
         }
     }
+    */
 }
